@@ -14,14 +14,16 @@
 		403C3899196E791600D94BC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 403C3898196E791600D94BC4 /* main.m */; };
 		403C389D196E791600D94BC4 /* joshoyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 403C389C196E791600D94BC4 /* joshoyAppDelegate.m */; };
 		403C38A0196E791600D94BC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 403C389E196E791600D94BC4 /* Main.storyboard */; };
-		403C38A3196E791600D94BC4 /* joshoyFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 403C38A2196E791600D94BC4 /* joshoyFirstViewController.m */; };
-		403C38A6196E791600D94BC4 /* joshoySecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 403C38A5196E791600D94BC4 /* joshoySecondViewController.m */; };
 		403C38A8196E791600D94BC4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 403C38A7196E791600D94BC4 /* Images.xcassets */; };
 		403C38AF196E791600D94BC4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 403C38AE196E791600D94BC4 /* XCTest.framework */; };
 		403C38B0196E791600D94BC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 403C388C196E791600D94BC4 /* Foundation.framework */; };
 		403C38B1196E791600D94BC4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 403C3890196E791600D94BC4 /* UIKit.framework */; };
 		403C38B9196E791600D94BC4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 403C38B7196E791600D94BC4 /* InfoPlist.strings */; };
 		403C38BB196E791600D94BC4 /* DeviceManagementSystemJoshOYTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 403C38BA196E791600D94BC4 /* DeviceManagementSystemJoshOYTests.m */; };
+		403C38DD196F79F100D94BC4 /* joshoyDevicesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 403C38DC196F79F100D94BC4 /* joshoyDevicesTableViewController.m */; };
+		403C38E0196F7A2A00D94BC4 /* joshoyDeviceRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 403C38DF196F7A2A00D94BC4 /* joshoyDeviceRecordViewController.m */; };
+		403C38EA196F83BE00D94BC4 /* joshoyDeviceDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 403C38E9196F83BE00D94BC4 /* joshoyDeviceDetailViewController.m */; };
+		403C38F1196F878700D94BC4 /* joshoyDeviceTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 403C38F0196F878700D94BC4 /* joshoyDeviceTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,16 +48,20 @@
 		403C389B196E791600D94BC4 /* joshoyAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = joshoyAppDelegate.h; sourceTree = "<group>"; };
 		403C389C196E791600D94BC4 /* joshoyAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = joshoyAppDelegate.m; sourceTree = "<group>"; };
 		403C389F196E791600D94BC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		403C38A1196E791600D94BC4 /* joshoyFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = joshoyFirstViewController.h; sourceTree = "<group>"; };
-		403C38A2196E791600D94BC4 /* joshoyFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = joshoyFirstViewController.m; sourceTree = "<group>"; };
-		403C38A4196E791600D94BC4 /* joshoySecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = joshoySecondViewController.h; sourceTree = "<group>"; };
-		403C38A5196E791600D94BC4 /* joshoySecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = joshoySecondViewController.m; sourceTree = "<group>"; };
 		403C38A7196E791600D94BC4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		403C38AD196E791600D94BC4 /* DeviceManagementSystemJoshOYTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeviceManagementSystemJoshOYTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		403C38AE196E791600D94BC4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		403C38B6196E791600D94BC4 /* DeviceManagementSystemJoshOYTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DeviceManagementSystemJoshOYTests-Info.plist"; sourceTree = "<group>"; };
 		403C38B8196E791600D94BC4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		403C38BA196E791600D94BC4 /* DeviceManagementSystemJoshOYTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeviceManagementSystemJoshOYTests.m; sourceTree = "<group>"; };
+		403C38DB196F79F100D94BC4 /* joshoyDevicesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = joshoyDevicesTableViewController.h; sourceTree = "<group>"; };
+		403C38DC196F79F100D94BC4 /* joshoyDevicesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = joshoyDevicesTableViewController.m; sourceTree = "<group>"; };
+		403C38DE196F7A2A00D94BC4 /* joshoyDeviceRecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = joshoyDeviceRecordViewController.h; sourceTree = "<group>"; };
+		403C38DF196F7A2A00D94BC4 /* joshoyDeviceRecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = joshoyDeviceRecordViewController.m; sourceTree = "<group>"; };
+		403C38E9196F83BE00D94BC4 /* joshoyDeviceDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = joshoyDeviceDetailViewController.m; sourceTree = "<group>"; };
+		403C38EB196F851500D94BC4 /* joshoyDeviceDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = joshoyDeviceDetailViewController.h; sourceTree = "<group>"; };
+		403C38EF196F878700D94BC4 /* joshoyDeviceTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = joshoyDeviceTableViewCell.h; sourceTree = "<group>"; };
+		403C38F0196F878700D94BC4 /* joshoyDeviceTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = joshoyDeviceTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,13 +121,11 @@
 		403C3892196E791600D94BC4 /* DeviceManagementSystemJoshOY */ = {
 			isa = PBXGroup;
 			children = (
+				403C38C5196E863A00D94BC4 /* View */,
+				403C38C4196E862600D94BC4 /* ViewController */,
 				403C389B196E791600D94BC4 /* joshoyAppDelegate.h */,
 				403C389C196E791600D94BC4 /* joshoyAppDelegate.m */,
 				403C389E196E791600D94BC4 /* Main.storyboard */,
-				403C38A1196E791600D94BC4 /* joshoyFirstViewController.h */,
-				403C38A2196E791600D94BC4 /* joshoyFirstViewController.m */,
-				403C38A4196E791600D94BC4 /* joshoySecondViewController.h */,
-				403C38A5196E791600D94BC4 /* joshoySecondViewController.m */,
 				403C38A7196E791600D94BC4 /* Images.xcassets */,
 				403C3893196E791600D94BC4 /* Supporting Files */,
 			);
@@ -155,6 +159,28 @@
 				403C38B7196E791600D94BC4 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		403C38C4196E862600D94BC4 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				403C38EB196F851500D94BC4 /* joshoyDeviceDetailViewController.h */,
+				403C38DB196F79F100D94BC4 /* joshoyDevicesTableViewController.h */,
+				403C38DC196F79F100D94BC4 /* joshoyDevicesTableViewController.m */,
+				403C38DE196F7A2A00D94BC4 /* joshoyDeviceRecordViewController.h */,
+				403C38DF196F7A2A00D94BC4 /* joshoyDeviceRecordViewController.m */,
+				403C38E9196F83BE00D94BC4 /* joshoyDeviceDetailViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		403C38C5196E863A00D94BC4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				403C38EF196F878700D94BC4 /* joshoyDeviceTableViewCell.h */,
+				403C38F0196F878700D94BC4 /* joshoyDeviceTableViewCell.m */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,10 +281,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				403C38DD196F79F100D94BC4 /* joshoyDevicesTableViewController.m in Sources */,
+				403C38F1196F878700D94BC4 /* joshoyDeviceTableViewCell.m in Sources */,
 				403C389D196E791600D94BC4 /* joshoyAppDelegate.m in Sources */,
+				403C38EA196F83BE00D94BC4 /* joshoyDeviceDetailViewController.m in Sources */,
 				403C3899196E791600D94BC4 /* main.m in Sources */,
-				403C38A6196E791600D94BC4 /* joshoySecondViewController.m in Sources */,
-				403C38A3196E791600D94BC4 /* joshoyFirstViewController.m in Sources */,
+				403C38E0196F7A2A00D94BC4 /* joshoyDeviceRecordViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,6 +491,7 @@
 				403C38C0196E791600D94BC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		403C38C1196E791600D94BC4 /* Build configuration list for PBXNativeTarget "DeviceManagementSystemJoshOYTests" */ = {
 			isa = XCConfigurationList;
@@ -471,6 +500,7 @@
 				403C38C3196E791600D94BC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
